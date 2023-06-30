@@ -33,6 +33,7 @@ if word[4] == letter:
 
 if no_instances == 0:
     print("No instances of " + letter + " found in " + word)
-if no_instances ==1:
-    print("1 instance of" + letter + " found in " + word)
-print(str(no_instances) + " instances of " + letter + " found in " + word)
+if no_instances == 1:
+    print("1 instance of " + letter + " found in " + word)
+if no_instances > 1:
+    print(str(no_instances) + " instances of " + letter + " found in " + word)

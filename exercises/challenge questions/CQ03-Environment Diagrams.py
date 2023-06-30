@@ -1,4 +1,4 @@
-"""Example memory diagram program."""
+"""CQ03 - Environment Diagram."""
 
 age: int = int(input("How old are you?"))
 year: int = int(input("What year is it?"))
@@ -8,4 +8,3 @@ print("In 2041, you'll be " + str(age_in_2041))
 age = age + 1
 year = year + 1
 print("In " + str(year) + ", you'll be " + str(age))
-
