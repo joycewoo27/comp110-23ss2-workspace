@@ -28,7 +28,7 @@ if len(guess) == number:
             # declare a boolean variable to keep track of yellow letters
             exist: bool = False
             alt: int = 0
-            while exist != True and alt < number:
+            while exist is not True and alt < number:
                 # does alternate index of the secred word = current index of guessed word?
                 if guess[first] == secret[alt]:
                     exist = True
