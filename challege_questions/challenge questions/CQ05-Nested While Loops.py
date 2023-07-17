@@ -1,4 +1,4 @@
-"""CQ05 - While Loops."""
+"""CQ05 - Nested While Loops."""
 
 i: int = 0
 s: str = ""
