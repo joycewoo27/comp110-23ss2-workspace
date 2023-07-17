@@ -12,4 +12,3 @@ def odds(min:int, max: int) -> list[int]:
 
 ys: list[int] = odds(3, 6)
 print(ys)
-
